@@ -48,7 +48,7 @@ PillPal-Prototype/
 │   ├── src/services/         notifications (reminder engine), drug info lookups, dose use-cases
 │   └── __tests__/            Jest tests (core logic + the real SQL via node:sqlite) + API fixtures
 ├── scripts/contrast-check.mjs  WCAG 2.1 AA colour-contrast check
-└── docs/                     screenshots, test evidence, demo script, P4 report
+└── docs/                     screenshots, test evidence, P4 report
 ```
 
 There is no backend server: everything runs on the phone, which talks directly to the public RxNorm and openFDA APIs.
@@ -119,4 +119,4 @@ Medications, schedules, dose history and journal notes stay in the on-device SQL
 | Caregiver / professional roles | 🟡 partial: local multi-profile and role-based home. Firebase accounts, sync and invite links are not implemented |
 | NFR3 encrypted storage | 🟡 SQLCipher configured. Active in development builds, not in Expo Go |
 
-See [`docs/report/P4-Report.pdf`](docs/report/P4-Report.pdf) for the full progress report and [`docs/DEMO-SCRIPT.md`](docs/DEMO-SCRIPT.md) for the lab demonstration plan.
+See [`docs/report/P4-Report.pdf`](docs/report/P4-Report.pdf) for the full progress report.
