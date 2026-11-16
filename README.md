@@ -159,6 +159,6 @@ No API keys, credentials, or real patient information are stored in this reposit
 
 | Req | Status |
 |---|---|
-| FR1 add / edit / remove medications | ✅ Complete (RxNorm + manual fallback, stop-taking vs delete) |
-| FR2 configurable reminder times | ✅ Complete (multiple times, days of week) |
-| FR3 notifications when due | 🟡 Implemented with local notifications |
+| FR1 add / edit / remove medications | Complete (RxNorm + manual fallback, stop-taking vs delete) |
+| FR2 configurable reminder times | Complete (multiple times, days of week) |
+| FR3 notifications when due | Implemented with local notifications |
